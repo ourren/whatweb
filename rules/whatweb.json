@@ -1,0 +1,49 @@
+{
+    "discuz": [
+        {
+            "url": "/static/image/admincp/bg_repno.gif",
+            "md5": "403889213f03534a0651d7cfd6878b2c"
+        },
+        {
+            "url": "/",
+            "text": "<meta name=\"generator\" content=\"Discuz!",
+            "regexp": "<script src=\".*?logging\\.js"
+        }
+    ],
+    "phpwind": [
+        {
+            "url": "/res/js/dev/wind.js",
+            "md5": "7ad9ac3d647e00e12c615a06762430fe"
+        },
+        {
+            "url": "/",
+            "regexp": "<meta name=\"generator\" content=\"(phpwind|PHPWind)"
+        }
+    ],
+    "dokuwiki": [
+        {
+            "url": "/",
+            "text": ["content=\"DokuWiki", "/lib/exe/css.php"]
+        }
+    ],
+    "hdwiki": [
+        {
+            "url": "/",
+            "text": ["Powered by HDWiki!","style/default/hdwiki.css"]
+        }
+    ],
+    "mediawiki": [
+        {
+            "url": "/",
+            "text": ["opensearch_desc.php","content=\"MediaWiki"]
+        }
+    ],
+    "drupal": [
+        {
+            "url": "/",
+            "text": ["drupal\\.js", "Powered by <a href=\"http://drupal.org\">Drupal</a>"],
+            "regex": "<(?:link|style)[^>]+sites\/(?:default|all)\/(?:themes|modules)\/"
+
+        }
+    ]
+}
