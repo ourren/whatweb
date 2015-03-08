@@ -1,0 +1,2 @@
+# whatweb
+simple with rules
