@@ -67,7 +67,7 @@ class WhatWeb(object):
 
 def main():
     print 'WhatWeb testing...'
-    URL = 'http://wiki.lizhaoweb.net'
+    URL = 'http://www.wordpress.com'
     w = WhatWeb(URL)
     w.run()
     print 'Final:' + w.result
